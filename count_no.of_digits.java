@@ -12,3 +12,13 @@ class Solution {
 
     }
 }
+
+// optimal approach
+class Solution {
+    public int countDigit(int n) {
+        while(n > 0) {
+            int length = (int)(Math.log10(n) + 1);
+
+    }
+    return length;    
+}
